@@ -1,0 +1,5 @@
+palabra=(input("dame una palabra "))
+print("el numero de caracteres ", len(palabra))
+numero=int(input("dame un nuemero"))
+numero2=int(input("dane un segundo numero"))
+print(palabra[numero-1:numero2:])
